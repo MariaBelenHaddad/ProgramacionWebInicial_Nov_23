@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+*{
+    font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial; 
+}
+/*BLOG VIAJES*/
+ul{
+    color: #3a3838;
+    list-style: none;
+}
+
+/*BOTONES*/
+.boton_ver{
+    background-color: #3a3838;
+    color: white;
+}
+.boton_ver_centrado{
+    background-color: #3a3838;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+/*ALINEAR IMAGENES Y TEXTO*/
+.encabezado{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.blog_flex_col_center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blog_flex_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*MARGIN Y PADDING*/
+.margin_top5{
+    margin-top: 5%;
+}
+.margin_top2{
+    margin-top: 2%;
+}
+.margin_bottom5{
+    margin-bottom: 5%;
+}
+.padding_5{
+    padding: 5%;
+}
+.padding_0505{
+    padding: 0 5% 0 5%;
+}
+
+/*IMAGENES*/
+.img_bordes_rectos{
+    width: 70%;
+    margin: 2% 10%;
+}
+.img_bordes_redondeados{
+    width: 70%;
+    margin: 15px;
+    border-radius: 6%;
+}
+.tira_imagenes{
+    width: 32%;
+    height:32%;
+}
+
+/*LETRAS SOBRE IMAGEN*/
+.recorriendo{
+    font-size:larger;
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 72%;
+}
+
+/*TEXTO*/
+.titulo_negro{
+    color: #3a3838;
+    font-weight: bold;
+    text-align: center;
+}
+.titulo_blanco{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.titulo_secundario{
+    color: #3a3838;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+.frase_italic{
+    color: #3a3838;
+    text-align: center;
+    font-style: italic;
+    font-size: 16px;
+}  
+.frase_italic span{
+    font-weight: bold;
+}
+.info_blanco{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+.info_negro{
+    color: #3a3838;
+    font-size: 16px;
+    text-align: center;
+}
+.info_negro span{
+    font-weight: bold;
+}
+.info_blanco a{
+    color: white;
+}
+.info_negro a{
+    color: #3a3838;
+}
+
+/*COLOR FONDO*/
+.fondo_lila{
+    background-color: #B08EBF;  
+}
+.fondo_verde{
+    background-color: #8AC2B0;
+}
+.fondo_gris{
+    background-color: #3a3838;
+}
+
+/*FOOTER*/
+.pie_de_pag{
+    background-color: #3a3838;
+    color: white;
+    padding-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.icon{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.nota_pie{
+    background-color: #3a3838;
+    width: 70%;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+    font-size: 12px;
+    padding: 2%;
+}
