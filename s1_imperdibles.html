@@ -3,119 +3,172 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="./style.css">
     <title>Imperdibles en nueva York</title>
 </head>
+
 <body>
-    <h2>Que hacer durante tu viaje a Nueva York?</h2>
-    <p>Aquí te mostraremos algunos de los imperdibles de esta ciudad.</p>
-    <div>
-        <h3>1. Central Park</h3>
-        <p>Uno de los planes que tenés que hacer sí o sí es pasear por el Central Park,
-            en bici o a pie, es un plan único y diferente según la estación del año en que realices tu viaje.
-            Acordate de incluir el lago y la fuente de Bethesda. 
+    <header>
+        <div class="encabezado margin_top5">
+            <h1 class="titulo_negro">Imperdibles</h1>
+            <button class="btn boton_ver" type="button"><a class="info_blanco" href="index.html">Volver</a></button>
+        </div>
+    </header>
+    
+    <div class="blog_flex_col_center margin_top5">
+        <h2 class="titulo_secundario">Que hacer durante tu viaje a Nueva York?</h2>
+        <h4 class="frase_italic">Aquí te mostraremos algunos de los imperdibles de esta ciudad.</h4>
+    </div>
+        
+    <div class="blog_flex_col_center margin_top5">
+        <h3 class="titulo_negro">1. Central Park</h3>
+        <p class="info_negro padding_0505">Uno de los planes que tenés que hacer sí o sí es pasear por el Central Park, en bici o a pie, es un plan único y diferente según la estación del año en que realices tu viaje.
+        Acordate de incluir el lago y la fuente de Bethesda. 
         </p>
-        <img src="./imagenes/central-park.jpg" alt="">
     </div>
-    <div>
-        <h3>2. Subí a uno de los miradores de la ciudad</h3>
-        <p>Subí hasta el rooftop de alguno de los edificios más icónicos de la ciudad para descubrir una vista panóramica de toda la ciudad!</p>
-        <p>Algunos de estos son el Empire State Building, el Edge, el Top of the Rock, el SUMMIT y el One World.</p>
-        <img src="" alt="una vista panorámica">
-        <p>Descubrí más en nuestra sección</p>
-        <a href="./miradores.html">Miradores</a>
+
+    <section>
+        <div class="blog_flex_col_center fondo_gris padding_5">
+            <img class="img_bordes_redondeados" src="./imagenes/central_park4.jpeg" alt="">
+            <p class="info_blanco">"Creo que sí, que has perdido la cabeza, estás completamente loco. Pero te diré un secreto: las mejores personas lo están."</br></br>Lewiss Carroll</p>
+        </div>
+        <div class="blog_flex_row margin_top2">
+            <img class="tira_imagenes" src="./imagenes/central_park2.jpeg" alt="">
+            <img class="tira_imagenes" src="./imagenes/central_park3.jpeg" alt="">
+            <img class="tira_imagenes" src="./imagenes/central_park5.jpeg" alt="">
+        </div>
+        <div class="blog_flex_col_center margin_top2">
+            <p class="info_negro">Imágenes del central park, incluyendo el mosaico negro y blanco diseñado por un equipo de artistas italianos en honor a la famosa canción de John Lennon</br><span> "Imagine"</span></p>
+            <a class="info_negro" href="https://www.youtube.com/watch?v=ugrAo8wEPiI">Escuchá la canción</a>
+        </div>
+    </section>  
+
+    <div class="blog_flex_col_center fondo_lila margin_top5 padding_5">
+        <h3 class="titulo_blanco">2. Subí a uno de los miradores de la ciudad</h3>
+        <p class="info_blanco">Subí hasta el rooftop de alguno de los edificios más icónicos de la ciudad para descubrir una vista panóramica de toda la ciudad!</p>
+        <p class="info_blanco">Algunos de estos son el Empire State Building, el Edge, el Top of the Rock, el SUMMIT y el One World.</p>
+        <img class="img_bordes_redondeados" src="./imagenes/vista-empire-states-rascacielos-ciudad-nueva-york.jpg" alt="Vista desde el rascacielos empire state">
+        <p class="info_blanco">Descubrí más en nuestra sección <a class="info_blanco" href="./miradores.html">Miradores</a></p>
+        
     </div>
-    <div>
-        <h3>3. Staten Island y la Estatua de la Libertad</h3>
-        <p>Subir al ferry de Staten Island es una experiencia hermosa, mientras te alejas de Manhattan puede verse la línea formada por los icónicos rascacielos de Nueva York. Esta vista es aún más impresionante durante el atardecer al ver los colores del cielo y las luces que se van encendiendo.</p>
-        <p>Este ferry no para en Liberty Island, pero sí alcanza para ver la Estatua de la Libertad de lejos y disfrutar del paisaje.</p>
-        <img src="./imagenes/liberty-statue.jpg" alt="Ferry de Staten Island">
+
+    <div class="blog_flex_col_center margin_top5">
+        <h3 class="titulo_negro">3. Staten Island y la Estatua de la Libertad</h3>
+        <p class="info_negro padding_0505">Subir al ferry de Staten Island es una experiencia hermosa, mientras te alejas de Manhattan puede verse la línea formada por los icónicos rascacielos de Nueva York. Esta vista es aún más impresionante durante el atardecer al ver los colores del cielo y las luces que se van encendiendo.</p>
+        <p class="info_negro">Este ferry no para en Liberty Island, pero sí alcanza para ver la Estatua de la Libertad de lejos y disfrutar del paisaje.</p>
+        <img class="img_bordes_redondeados" src="./imagenes/liberty-statue.jpg" alt="Ferry de Staten Island">
     </div>
-    <div>
-        <h3>4. Museos</h3>
-        <p>Los museos de Nueva York son auténticas obras de arte, tanto sus edificios como todo lo que puedes ver dentro!</p>
-        <p>Algunos de ellos son:</p>
-        <ul>
+
+    <div class="blog_flex_col_center">
+        <h3 class="titulo_negro">4. Museos</h3>
+        <p class="info_negro padding_0505">Los museos de Nueva York son auténticas obras de arte, tanto sus edificios como todo lo que puedes ver dentro!</p>
+        <p class="info_negro">Algunos de ellos son:</p>
+        <ul class="info_negro">
             <li>MoMa</li>
             <li>El Met</li>
             <li>Museo de Historia Natural</li>
             <li>Museo del 11-S</li>
             <li>Museo Guggenheim</li>
         </ul>
-        <img src="" alt="Museo">
+        <img class="img_bordes_redondeados" src="./imagenes/guggenheim.jpeg" alt="Museo Guggenheim">
     </div>
-    <div>
-        <h3>5. High Line</h3>
-        <p>El High Line es un parque elevado sobre las calles de Manhattan donde se encuentran las antiguas vías de tren. Este lugar es increíble por su desarrollo paisajístico, el paseo incluye arte y un montón de flores. </p>
-        <img src="" alt="High Line">
+    
+    <div class="blog_flex_col_center">
+        <h3 class="titulo_negro">5. High Line</h3>
+        <p class="info_negro padding_0505">El High Line es un parque elevado sobre las calles de Manhattan donde se encuentran las antiguas vías de tren. Este lugar es increíble por su desarrollo paisajístico, el paseo incluye arte y 
     </div>
-    <div>
-        <h3>6. Times Square</h3>
-        <p>Esta esquina es una de las más famosas de la ciudad con sus tiendas y pantallas de anuncios que iluminana 24 horas. Su energía es frenética y vibrante.</p>
-        <img src="" alt="Esquina Times Square">
+
+    <div class="blog_flex_col_center fondo_lila margin_top5 padding_5">
+        <h3 class="titulo_blanco">6. Times Square</h3>
+        <p class="info_blanco">Esta esquina es una de las más famosas de la ciudad con sus tiendas y pantallas de anuncios que iluminana 24 horas. Su energía es frenética y vibrante.</p>
+        <img class="img_bordes_redondeados" src="./imagenes/timesquare2.jpeg" alt="Esquina Times Square">
     </div>
-    <div>
-        <h3>7. Broadway</h3>
-        <p>Los musicales de Broadway se encuentran entre los mejores del mundo, todas las noches se presentan decenas de obras.</p>
+
+    <div class="blog_flex_col_center margin_top5">
+        <h3 class="titulo_negro">7. Broadway</h3>
+        <p class="info_negro padding_0505">Los musicales de Broadway se encuentran entre los mejores del mundo, todas las noches se presentan decenas de obras.</p>
     </div>
-    <div>
-        <h3>Grand Central Terminal</h3>
-        <p>El salón principal de la terminal Grand Central es impactante. Muchísima gente pasa por esta terminal todos los días, pero para quienes la visitan por primera vez es una escena soñada. Sus constelaciones y galerías abovedadas son una belleza.</p>
-        <img src="" alt="Grand Central Terminal">
+
+    <div class="blog_flex_col_center">
+        <h3 class="titulo_negro">8. Grand Central Terminal</h3>
+        <p class="info_negro padding_0505">El salón principal de la terminal Grand Central es impactante. Muchísima gente pasa por esta terminal todos los días, pero para quienes la visitan por primera vez es una escena soñada. Sus constelaciones y galerías abovedadas son una belleza.</p>
+        <img class="img_bordes_redondeados" src="./imagenes/grand_central_2.jpeg" alt="Grand Central Terminal">
     </div>
-    <div>
-        <h3>8. Puente de Brooklyn</h3>
-        <p>Es sin dudas el puente más famoso de Nueva York, y el más fotogénico. Si puedes es mejor ir temprano para evitar multitudes. Del otro lado, puedes disfrutar de un recorrido por el barrio de Dumbo y las vistas del skyline. También aprovechar para ir a comer algo al mercado Time Out.</p>
-        <img src="" alt="Puente de Brooklyn">
+
+    <div class="blog_flex_col_center">
+        <h3 class="titulo_negro">9. Puente de Brooklyn</h3>
+        <p class="info_negro padding_0505">Es sin dudas el puente más famoso de Nueva York, y el más fotogénico. Si puedes es mejor ir temprano para evitar multitudes. Del otro lado, puedes disfrutar de un recorrido por el barrio de Dumbo y las vistas del skyline. También aprovechar para ir a comer algo al mercado Time Out.</p>
+        <img class="img_bordes_redondeados" src="./imagenes/brooklyn_bridge_2.jpeg" alt="Puente de Brooklyn">
     </div>
-    <div>
-        <h3>9. Bryant Park & New York Public Library</h3>
-        <p>Pasear por el Bryant Park nos lleva a bajar la velocidad, descansar y disfrutar del aire libre. Es un espacio donde los locales van para hacer un picnic, disfrutar de ciclos de cine, etcétera. Cuando es navidad también podrás ver un mercado y una pista de patinaje sobre hielo.
+
+    <div class="blog_flex_col_center">
+        <h3 class="titulo_negro">9. Bryant Park & New York Public Library</h3>
+        <p class="info_negro padding_0505">Pasear por el Bryant Park nos lleva a bajar la velocidad, descansar y disfrutar del aire libre. Es un espacio donde los locales van para hacer un picnic, disfrutar de ciclos de cine, etcétera. Cuando es navidad también podrás ver un mercado y una pista de patinaje sobre hielo.
         </p>
-        <p>Al lado se encuentra la New York Public Library de la 5ª Avenida, que también se puede conocer.</p>
-        <img src="" alt="Bryant Park">
+        <p class="info_negro padding_0505">Al lado se encuentra la New York Public Library de la 5ª Avenida, que también se puede conocer.</p>
     </div>
-    <div>
-        <h3>10. World Trade Center</h3>
-        <p>En esta zona se encontraban las torres gemelas que sufrieron el atentado terrorista aquel triste 11 de Septiembre. Por eso mismo, aquí hoy en día construyeron el monumento a los desaparecidos. Un lugar para quedarse sin aliento.</p>
-        <p>Por el área también puede visiarte el nuevo rascacielos y observatorio One World o la estación y centro comercial Oculus.</p>
+
+    <div class="blog_flex_col_center">
+        <h3 class="titulo_negro">10. World Trade Center</h3>
+        <p class="info_negro padding_0505">En esta zona se encontraban las torres gemelas que sufrieron el atentado terrorista aquel triste 11 de Septiembre. Por eso mismo, aquí hoy en día construyeron el monumento a los desaparecidos. Un lugar para quedarse sin aliento.</p>
+        <p class="info_negro padding_0505">Por el área también puede visiarte el nuevo rascacielos y observatorio One World o la estación y centro comercial Oculus.</p>
     </div>
-    <div>
-        <h3>11. Barrios de Nueva York</h3>
-        <p>Aunque Manhattan sea el principal atractivo turístico en la ciudad, también se pueden descubrir otros de los distritos que pertenecen a ella como Brooklyn, Queens, Staten Island y el Bronx. Algunas recomendaciones: Williamsburg, Park Slope, Cobble Hill, Carroll Gardens, Greenpoint.</p>
+    <div class="blog_flex_row">
+        <img class="tira_imagenes" src="./imagenes/oculus3.jpeg" alt="">
+        <img class="tira_imagenes" src="./imagenes/one_world.jpeg" alt="">
+        <img class="tira_imagenes" src="./imagenes/oculus4.jpeg" alt="">
     </div>
-    <div>
-        <h3>12. Flatiron Building</h3>
-        <p>Este icónico edificio de base triangular se encuentra en la esquina de Broadway y la 5ª Avenida. También se puede incluir en este punto un paseo por el vecino Madison Square Park.</p>
+
+    <div class="blog_flex_col_center fondo_verde margin_top5 padding_5">
+        <h3 class="titulo_blanco">11. Barrios de Nueva York</h3>
+        <p class="info_blanco">Aunque Manhattan sea el principal atractivo turístico en la ciudad, también se pueden descubrir otros de los distritos que pertenecen a ella como Brooklyn, Queens, Staten Island y el Bronx. Algunas recomendaciones: Williamsburg, Park Slope, Cobble Hill, Carroll Gardens, Greenpoint.</p>
+        <img class="img_bordes_redondeados" src="./imagenes/barrio_carrie.jpeg" alt="Frente de una casa en un Barrio de Nueva York">
     </div>
-    <div>
-        <h3>13. Ve de compras y visita la Quinta Avenida!</h3>
-        <p>El barrio de Soho es una de los lugares donde abundan tiendas para comprar productos únicos. También puedes ir a Herald Square donde se ubican las tiendas más clásicas.</p>
-        <p>Si el presupuesto es más acotado puedes ir a los outlets, algunos son Woodbury Common, Jersey Gardens o Empire Outlets.</p>
-        <img src="" alt="">
-        <p>La 5ª Avenida es una de las calles más famosas del mundo, el imperdible es el tramo que va desde el Central Park al Rockefeller Center, donde puedes ver el Hotel Plaza y tiendas de lujo como Tiffany´s. Muchos de ustedes recordaran la pelicula "Desayuno en Tiffany´s". También se puede ver la Catedral de St. Patrick y otras tiendas con un diseño increíble, como la famosa Apple.</p>
-        <img src="" alt="">
+
+    <div class="blog_flex_col_center margin_top5">
+        <h3 class="titulo_negro">12. Flatiron Building</h3>
+        <p class="info_negro padding_0505">Este icónico edificio de base triangular se encuentra en la esquina de Broadway y la 5ª Avenida. También se puede incluir en este punto un paseo por el vecino Madison Square Park.</p>
     </div>
-    <div>
-        <h3>14. Chelsea Market</h3>
-        <p>En este mercado encontrarás un montón de puestos de comida y tiendas muy originales. No te lo pierdas!</p>
-        <img src="" alt="Chelsea Market">
+
+    <div class="blog_flex_col_center">
+        <h3 class="titulo_negro">13. Ir de compras a la Quinta Avenida!</h3>
+        <p class="info_negro padding_0505">El barrio de Soho es una de los lugares donde abundan tiendas para comprar productos únicos. También puedes ir a Herald Square donde se ubican las tiendas más clásicas.</p>
+        <p class="info_negro padding_0505">Si el presupuesto es más acotado puedes ir a los outlets, algunos son Woodbury Common, Jersey Gardens o Empire Outlets.</p>
+        <p class="info_negro padding_0505">La 5ª Avenida es una de las calles más famosas del mundo, el imperdible es el tramo que va desde el Central Park al <span>Rockefeller Center</span>, donde puedes ver el Hotel Plaza y tiendas de lujo como Tiffany´s. Muchos de ustedes recordaran la pelicula "Desayuno en Tiffany´s". También se puede ver la Catedral de St. Patrick y otras tiendas con un diseño increíble, como la famosa Apple.</p>
     </div>
-    <div>
-        <h3>15. Greenwich Village, Washington Square y West Village</h3>
-        <p>Si te gustan los clubs de música, restaurantes y lugares antiquísimos este es el barrio que debes visitar. Además allí también se encuentra la plaza Washington Square donde conviven artistas callejeros de todo tipo.</p>
-        <p>En el barrio vecino de West Village podrás fotografiar casas con un porche de película, una escena que seguramente ya viste en muchísimas películas. Aprovecha para buscar el edificio de la serie "Friends" y la casa de Carrie, la protagonista de la serie "Sex and the City".</p>
+
+    <div class="blog_flex_col_center">
+        <h3 class="titulo_negro">14. Chelsea Market</h3>
+        <p class="info_negro padding_0505">En este mercado encontrarás un montón de puestos de comida y tiendas muy originales. No te lo pierdas!</p>
+        <img class="img_bordes_redondeados" src="./imagenes/chelsea_market2.jpeg" alt="Chelsea Market">
     </div>
-    <div>
-        <h3>16. Little Island</h3>
-        <p>Este parque con hermosos paisajes fué inaugurado en 2021, es una isla artificial que fué construída sobre el Río Hudson. Desde aquí se puede ver el skyline de Nueva York. También puedes subir a la terraza del edificio Pier 57 para disfrutar otras vistas.</p>
+
+    <div class="blog_flex_col_center">
+        <h3 class="titulo_negro">15. Greenwich Village, Washington Square y West Village</h3>
+        <p class="info_negro padding_0505">Si te gustan los clubs de música, restaurantes y lugares antiquísimos este es el barrio que debes visitar. Además allí también se encuentra la plaza Washington Square donde conviven artistas callejeros de todo tipo.</p>
+        <p class="info_negro padding_0505">En el barrio vecino de West Village podrás fotografiar casas con un porche de película, una escena que seguramente ya viste en muchísimas películas. Aprovecha para buscar el edificio de la serie "Friends" y la casa de Carrie, la protagonista de la serie "Sex and the City".</p>
     </div>
-    <div>
-        <h3>17. Wall Street</h3>
-        <p>El distrito de Wall Street es sumamente conocido y es donde se toman algunas decisiones que afectan a las empresas a nivel global, 
-        La estatua del Toro de Wall St ...
-        Justo enfrente de la Bolsa de Wall St también puede verse la escultura de la niña sin miedo o Fearless Girl, una niña valiente haciendole frente y mirando muy decidida hacia las grandes corporaciones.
+
+    <div class="blog_flex_col_center fondo_verde padding_5">
+        <h3 class="titulo_blanco">16. Little Island</h3>
+        <p class="info_blanco">Este parque con hermosos paisajes fué inaugurado en 2021, es una isla artificial que fué construída sobre el Río Hudson. Desde aquí se puede ver el skyline de Nueva York. También puedes subir a la terraza del edificio Pier 57 para disfrutar otras vistas.</p>
+        <img class="img_bordes_redondeados" src="./imagenes/little_island.jpeg" alt="Little Island">
+        <img class="img_bordes_redondeados" src="./imagenes/little_island2.jpeg" alt="Flores en Little Island">
+    </div>
+
+    <div class="blog_flex_col_center margin_top5">
+        <h3 class="titulo_negro">17. Wall Street</h3>
+        <p class="info_negro padding_0505">El distrito de Wall Street es sumamente conocido y es donde se toman algunas decisiones que afectan a las empresas a nivel global, aquí podemos encontrar la estatua del Toro de Wall Street.
+        Justo enfrente de la Bolsa de Wall St también puede verse la escultura de <span>la niña sin miedo</span>  o Fearless Girl, una niña valiente haciendole frente y mirando muy decidida hacia las grandes corporaciones.
         </p>
-        <img src="" alt="Escultura de la niña sin miedo">
+        <img class="img_bordes_redondeados" src="./imagenes/girl_without_fear.jpeg" alt="Escultura de la niña sin miedo">
     </div>
+    <footer class="blog_flex_col_center margin_bottom5">
+        <a class="btn boton_ver_centrado info_blanco" type="button" href="index.html">Volver a la página de inicio</a>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </body>
 </html>

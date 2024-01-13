@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Montserrat:wght@300;400&display=swap');
 
 *{
     font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial; 
@@ -8,17 +9,31 @@ ul{
     color: #3a3838;
     list-style: none;
 }
+.lista{
+    list-style: disc;
+}
 
 /*BOTONES*/
 .boton_ver{
+    display: flex;
+    align-items: center;
     background-color: #3a3838;
+    color: white;
+}
+.boton_ver:hover{
+    background-color: #B08EBF;
     color: white;
 }
 .boton_ver_centrado{
     background-color: #3a3838;
+    color: white; 
+}
+.boton_ver_centrado:hover{
+    background-color: #B08EBF;
     color: white;
-    display: flex;
-    justify-content: center;
+}
+#exampleInputEmail1{
+    width: 400px;
 }
 
 /*ALINEAR IMAGENES Y TEXTO*/
@@ -38,6 +53,18 @@ ul{
     justify-content: space-between;
     align-items: center;
 }
+.position_rel{
+    position: relative;
+}
+.flex_cards{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 15px;
+    row-gap: 15px;
+    align-items: center;
+}
 
 /*MARGIN Y PADDING*/
 .margin_top5{
@@ -49,6 +76,9 @@ ul{
 .margin_bottom5{
     margin-bottom: 5%;
 }
+.margin_5{
+    margin: 5%;
+}
 .padding_5{
     padding: 5%;
 }
@@ -58,7 +88,7 @@ ul{
 
 /*IMAGENES*/
 .img_bordes_rectos{
-    width: 70%;
+    width: 75vw;
     margin: 2% 10%;
 }
 .img_bordes_redondeados{
@@ -70,14 +100,22 @@ ul{
     width: 32%;
     height:32%;
 }
+.card_size{
+    width: 18rem;
+    height: 38rem;
+}
+.icono_resto{
+    width: 15%;
+}
 
 /*LETRAS SOBRE IMAGEN*/
-.recorriendo{
-    font-size:larger;
+.letras_blancas_sob_img{
+    font-family: 'Libre Baskerville', serif;
+    font-size:25px;
     color: white;
     text-align: center;
     position: absolute;
-    bottom: 72%;
+    bottom: 3%;
 }
 
 /*TEXTO*/
@@ -141,24 +179,8 @@ ul{
 .pie_de_pag{
     background-color: #3a3838;
     color: white;
-    padding-top: 2%;
-    margin-left: 10%;
-    margin-right: 10%;
-    width: 70%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    font-size: 12px;
 }
 .icon{
-    margin-left: 2%;
-    margin-right: 2%;
-}
-.nota_pie{
-    background-color: #3a3838;
-    width: 70%;
-    margin-left: 10%;
-    margin-right: 10%;
-    color: white;
-    font-size: 12px;
-    padding: 2%;
+    margin: 10% 5% 5% 5%;
 }

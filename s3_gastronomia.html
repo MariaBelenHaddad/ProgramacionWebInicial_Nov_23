@@ -5,81 +5,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> 
     <link rel="stylesheet" href="./style.css">
-    <title>Lugares para ir a comer en Nueva York</title>
+    <title>Gastronomía en Nueva York</title>
 </head>
-<body class="margin_5">
-    <header><h1>Gastronomía</h1><button class="btn boton_ver" type="button">
-        Volver al inicio
-      </button>
+<body>
+    <header>
+        <div class="encabezado margin_top5">
+            <h1 class="titulo_negro">Gastronomía</h1>
+            <a class="btn boton_ver" type="button" href="index.html">Volver</a>
+        </div>
+        <h2 class="frase_italic margin_top2">Aquí encontraras lugares deliciosos para comer en esta ciudad!<h2></h2>
     </header>
 
-    <h3 class="g_frase">Aquí encontraras lugares deliciosos para comer en esta ciudad!<h3>
-
-    <div class="blog_flex_col_center g_fondo_color">
-        <h3 class="g_titulo">Los Tacos Nº 1</h3>
-        <ul class="g_info">
+    <div class="blog_flex_col_center fondo_verde margin_top2 padding_5">
+        <h3 class="titulo_blanco">Los Tacos Nº 1</h3>
+        <ul class="info_blanco">
             <li>Localizado en: Chelsea Market</li>
             <li>Ubicación: 75 9th Ave, New York, NY 10011</li>
-            <img class="g_img_comida" src="./imagenes/gastronomia/los_tacos.jpg" alt="Tienda Los tacos">
-            <li>Menú: <a href="lostacos1.com">Los tacos 1</a></li>
+            <img class="img_bordes_redondeados" src="./imagenes/los_tacos.jpg" alt="Tienda Los tacos">
+            <li>Menú: <a href="https://www.lostacos1.com/">Los tacos 1</a></li>
             <li>Opción vegetariana: Si! Grilled cactus y quesadillas</li>
         </ul>
     </div>
-    
-    <div>
-        <h3>Galletas Levain</h3>
-        <ul>
+
+    <div class="blog_flex_col_center margin_top5">
+        <h3 class="titulo_negro">Galletas Levain</h3>
+        <ul class="info_negro">
             <li>Localizado en: Levain Bakery, Upper East Side</li>
-            <img src="./imagenes/gastronomia/levain_cookies.jpg" alt="Mostrador de galletitas">
+            <img class="img_bordes_redondeados" src="./imagenes/galletitas_levain.png" alt="Mostrador de galletitas">
+            <div class="info_negro"><p>imágen de levainbakery.com</p></div>
             <li>Ubicación: 1484 3rd Ave, New York</li>
             <li>Ver más: <a href="https://levainbakery.com/">Levain Bakery</a></li>
         </ul>
 
     </div>
-    <div>
-        <h3>Krispy Doughnuts</h3>
-        <ul>
+
+    <div class="blog_flex_col_center fondo_verde padding_5">
+        <h3 class="titulo_blanco">Krispy Doughnuts</h3>
+        <ul class="info_blanco">
             <li>Localizado en: Krispy Kreme, Upper East Side</li>
             <li>Ubicación: 1276 Lexington Ave, New York</li>
+            <img class="img_bordes_redondeados" src="./imagenes/doughnuts.PNG" alt="Mostrador de donas">
             <li>Ver más: <a href="https://www.krispykreme.com/"> Krispy Kreme</a></li>
         </ul>
-        <img src="./imagenes/gastronomia/doughnuts.PNG" alt="Mostrador de donas">
+        
     </div>
-    <div>
-        <h3>Rubirosa Pizzaria</h3>
-        <ul>
+
+    <div class="blog_flex_col_center margin_top5">
+        <h3 class="titulo_negro">Rubirosa Pizzaria</h3>
+        <ul class="info_negro">
             <li>Localizado en: Cerca del Washington Square Park y el Barrio del Soho, Manhattan</li>
             <li>Ubicación: 235 Mulberry St, New York</li>
-            <li>Menú: <a href=" rubirosanyc.com"> Rubirosa NYC</a></li>
+            <img class="img_bordes_redondeados" src="./imagenes/rubirosa_pizza.jpeg" alt="Rubirosa pizzeria">
+            <li>Menú: <a href="https://www.rubirosanyc.com/"> Rubirosa NYC</a></li>
             <li>Opción vegetariana: Si</li>
         </ul>
-        <img src="./imagenes/gastronomia/rubirosa_pizza.jpg" alt="Rubirosa pizzeria">
     </div>
-    <div>
-        <h3>Un clásico: Shake Shack hamburguesas</h3>
-        <ul>
+
+    <section class="blog_flex_row">
+        <img class="tira_imagenes" src="./imagenes/pizza_1.png" alt="Pizza margarita">
+        <img class="tira_imagenes" src="./imagenes/spaghetti_1.png" alt="Spaghetis">
+        <img class="tira_imagenes" src="./imagenes/pizza_2.png" alt="Queso muzzarela, tomates cherrys y albahaca">
+    </section>
+
+    <div class="info_negro"><p>imágenes de @rubirosa_nyc</p></div>
+
+    <div class="blog_flex_col_center fondo_lila padding_5">
+        <h3 class="titulo_blanco">Un clásico,</br>Shake Shack hamburguesas!</h3>
+        <ul class="info_blanco">
             <li>Localizado en: Varios locales en Manhattan</li>
+            <img class="img_bordes_redondeados" src="./imagenes/hamburguesa_shake.jpg" alt="Hamburguesas y papas">
             <li>Menú: <a href="https://shakeshack.com"> Shake Shack</a></li>
             <li>Opción vegetariana: Si, tienen hamburguesas vegetarianas!</li>
         </ul>
-        <img src="./imagenes/gastronomia/hamburguesa_shake.jpg" alt="Hamburguesas y papas">
     </div>
-    <div>
-        <h3>Sandwich de Pastrami</h3>
-        <ul>
+
+    <div class="blog_flex_col_center fondo_verde margin_top5 padding_5">
+        <h3 class="titulo_blanco">Sandwich de Pastrami</h3>
+        <ul class="info_blanco">
             <li>Localizado en: Katz's Delicatessen</li>
             <li>Ubicación: 205 E Houston St, New York</li>
-            <li>Menú: <a href="localmenu.katzsdelicatessen.com"> Katz´s Delicatessen</a></li>
+            <img class="img_bordes_redondeados" src="./imagenes/Katzs-Delicatessen.jpg" alt="Local de sandwiches de Pastrami">
+            <li>Menú: <a href="https://localmenu.katzsdelicatessen.com/"> Katz´s Delicatessen</a></li>
             <li>Opción vegetariana: Si, aunque aquí la especialidad es la carne</li>
         </ul>
-        <img src="./imagenes/gastronomia/Katzs-Delicatessen.jpg" alt="Local de sandwiches de Pastrami">
-        <p>Para quienes no saben: Qué es el pastrami? Esta comida vuelve locos a los neoyorkinos y otros americanos. Este producto es una carne curada en salmuera y posteriormente ahumada, que se corta en rodajas finas, como si fuera una chacina o embutido y que se puede usar para preparar diferentes sandwiches.</p>
     </div>
-    <button>Volver a la página de inicio</button>
+
+    <footer class="blog_flex_col_center margin_top5 margin_bottom5">
+        <p class="frase_italic margin_top2 padding_0505">Para quienes no saben: <span>Qué es el pastrami?</span> Esta comida vuelve locos a los neoyorkinos y otros americanos. Este producto es una carne curada en salmuera y posteriormente ahumada, que se corta en rodajas finas, como si fuera una chacina o embutido y que se puede usar para preparar diferentes sandwiches.</p>
+        <img class="img_bordes_redondeados" src="./imagenes/sandwich_pastrami.jfif" alt="Sandwich de pastrami">
+        <p class="info_negro">imágen de katzsdelicatessen.com</p>
+        <a class="btn boton_ver margin_bottom5" type="button" href="index.html">Volver a la página de inicio</a>
+    </footer>
+    
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </body>
 </html>
+
 <!--Gastronomia:
 Tacos N1
 Galletas Levain

@@ -3,45 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="./style.css">
     <title>Miradores en la ciudad de Nueva York</title>
 </head>
 <body>
-    <div>
-        <h3>El Edge</h3>
-        <p>Se encuentra en el barrio de Hudson Yards, es el mirador al aire libre más alto de los Estados Unidos y además cuenta con un espacio con piso de vidrio! No apto para personas que sufren de vértigo.</p>
-        <p>A su lado se encuentra The Vessel, un nuevo edificio futurista repleto de escaleras que tiene forma de vasija y anteriormente era visitado como mirador al aire libre. Hoy en día se encuentra cerrado por seguridad.</p>
-        <img src="" alt="Mirador El Edge">
+    <header>
+        <div class="encabezado margin_top5">
+            <h1 class="titulo_negro">Miradores</h1>
+            <a class="btn boton_ver info_blanco" type="button" href="index.html">Volver</a>
+        </div>
+    </header>
+
+    <div class="blog_flex_col_center margin_top5">
+        <h3 class="titulo_negro">The Edge</h3>
+        <p class="info_negro padding_0505">Se encuentra en el barrio de Hudson Yards, es el mirador al aire libre más alto de los Estados Unidos y además cuenta con un espacio con piso de vidrio! No apto para personas que sufren de vértigo.</p>
+        <p class="info_negro padding_0505">A su lado se encuentra The Vessel, un nuevo edificio futurista repleto de escaleras que tiene forma de vasija y anteriormente era visitado como mirador al aire libre. Hoy en día se encuentra cerrado por seguridad.</p>
+        <div class="blog_flex_row">
+            <img class="tira_imagenes" src="./imagenes/the_edge.jpeg" alt="Mirador The Edge">
+            <img class="tira_imagenes" src="./imagenes/the_edge2.jpeg" alt="Mirador The Edge">
+            <img class="tira_imagenes" src="./imagenes/the_edge3.jpeg" alt="Mirador The Edge">
+        </div>
+    </div>
+    
+    <div class="blog_flex_col_center margin_top5">
+        <h3 class="titulo_negro">Brooklyn Heights Promenade</h3>
+        <p class="info_negro padding_0505">Este paseo se encuentra a la orilla del río con vistas al Brooklyn Bridge o Puente de Brooklyn. Este recorrido incluye bancos, mesas y espacios verdes aptos para sentarte y hacer un picnic así como disfrutar del día, siempre y cuando no este lloviendo. Cruzando el puente, al llegar al Empire Fulton Ferry Park podrás ver el Brooklyn Bridge iluminado con los rascacielos de Manhattan de fondo.</p>
     </div>
 
-    <div>
-        <h3>Top of the Rock</h3>
-        <p>Este mirador nos permite tener unas magníficas vistas del norte de la isla de Manhattan. Desde aquí podrás ver el Empire State y un poco del Central Park. Esta ubicado en el centro comercial Rockefeller Center. Cuenta con una zona acristalada y otra descubierta.</p>
-        <p>Algunas recomendaciones: llegar un rato antes ya que suele haber fila para subier. Aunque en cualquier horario vas a tener unas vistas espectaculares, se recomienda disfrutar allí la puesta de sol.</p>
-        <p>Horario de visita: todos los días de 10hs a 22hs, el último ascensor sube a la 21:10hs</p>
-    </div>
-    <div>
-        <h3>Brooklyn Heights Promenade</h3>
-        <p>Este paseo se encuentra a la orilla del río con vistas al Brooklyn Bridge o Puente de Brooklyn. Este recorrido incluye bancos, mesas y espacios verdes aptos para sentarte y hacer un picnic así como disfrutar del día, siempre y cuando no este lloviendo. Cruzando el puente, al llegar al Empire Fulton Ferry Park podrás ver el Brooklyn Bridge iluminado con los rascacielos de Manhattan de fondo.</p>
-    </div>
-    <div>
-        <h3>El Empire State Building</h3>
-        <p>Este icónico edificio fué durante mucho tiempo el rascacielos más alto del mundo. Desde su terraza puede verse la zona sur de Manhattan a través de sus binoculares de hierro antiguos.</p>
-        <p>Horario de visita: todos los días de 9hs a 2hs por la noche
+    <div class="blog_flex_col_center">
+        <h3 class="titulo_negro">The Empire State Building</h3>
+        <p class="info_negro padding_0505">Este icónico edificio fué durante mucho tiempo el rascacielos más alto del mundo. Desde su terraza puede verse la zona sur de Manhattan a través de sus binoculares de hierro antiguos.</p>
+        <p class="frase_italic padding_0505">Horario de visita: todos los días de 9hs a 2hs por la noche
         </p>
     </div>
-    <div>
-        <h3>One World Trade Center</h3>
-        <p>Este es el edificio más alto de la ciudad y uno de los más altos del mundo. Se construyó como homenaje a las antiguas Torres Gemelas, como un edificio de oficinas, y con la incorporación de varios miradores de 360 grados a más de 400 metros de altura, lo que lo convierte en uno de los miradores más visitados de la ciudad.</p>
-        <p>Este mirador es pago, tiene un precio elevado. Se recomienda comprar las entradas con anticipación para ahorrar filas.</p>
-        <p>Horario de visita: todos los días de 10hs a 18hs</p>
+
+    <div class="blog_flex_col_center">
+        <h3 class="titulo_negro">Top of the Rock</h3>
+        <p class="info_negro padding_0505">Este mirador nos permite tener unas magníficas vistas del norte de la isla de Manhattan. Desde aquí podrás ver el Empire State y un poco del Central Park. Esta ubicado en el centro comercial Rockefeller Center. Cuenta con una zona acristalada y otra descubierta.</p>
+        <p class="info_negro padding_0505">Algunas recomendaciones: llegar un rato antes ya que suele haber fila para subier. Aunque en cualquier horario vas a tener unas vistas espectaculares, se recomienda disfrutar allí la puesta de sol.</p>
+        <p class="frase_italic padding_0505">Horario de visita: todos los días de 10hs a 22hs, el último ascensor sube a la 21:10hs</p>
+        <img class="img_bordes_redondeados" src="imagenes/top_of_the_rock2.jpeg" alt="Mirador Top of the Rock">
     </div>
-    <div>
-        <h3>The Summit One Vanderbilt</h3>
-        <p>Terminamos el listado con The Summit, al día de hoy es un infaltable. Se sube por dos ascensores de alta velocidad en el exterior del edificio. Para los que no tienen miedo y quieren experimentar un poco de adrenalina se puede caminar por cubiculos de cristal en el piso 92, estos cubiculos sobresalen de la fachada y puedes ver la avenida a tus pies. Se recomienda ir con tiempo ya que es muy concurrido y muchas veces se tarda en subir. Los mejores momentos para visitarlo son al amanecer y al atardecer.</p>
-        <p>Horario de visita: ...</p>
-        <img src="" alt="">
+
+    <div class="blog_flex_col_center">
+        <h3 class="titulo_negro">One World Trade Center</h3>
+        <p class="info_negro padding_0505">Este es el edificio más alto de la ciudad y uno de los más altos del mundo. Se construyó como homenaje a las antiguas Torres Gemelas, como un edificio de oficinas, y con la incorporación de varios miradores de 360 grados a más de 400 metros de altura, lo que lo convierte en uno de los miradores más visitados de la ciudad.</p>
+        <p class="info_negro padding_0505">Este mirador es pago, tiene un precio elevado. Se recomienda comprar las entradas con anticipación para ahorrar filas.</p>
+        <p class="frase_italic padding_0505">Horario de visita: todos los días de 10hs a 18hs</p>
+    </div>
+
+    <div class="blog_flex_col_center">
+        <h3 class="titulo_negro">The Summit One Vanderbilt</h3>
+        <p class="info_negro padding_0505">Terminamos el listado con The Summit, al día de hoy es un infaltable. Se sube por dos ascensores de alta velocidad en el exterior del edificio. Para los que no tienen miedo y quieren experimentar un poco de adrenalina se puede caminar por cubiculos de cristal en el piso 92, estos cubiculos sobresalen de la fachada y puedes ver la avenida a tus pies. Se recomienda ir con tiempo ya que es muy concurrido y muchas veces se tarda en subir. Los mejores momentos para visitarlo son al amanecer y al atardecer.</p>
+        <p class="frase_italic padding_0505">Horario de visita: todos los días de 9hs a 22:30hs</p>
+        <img class="img_bordes_redondeados" src="./imagenes/the_summit.jpg" alt="Mirador The Summit">
     
     </div>
-    
+    <footer class="blog_flex_col_center margin_top5 margin_bottom5"><a class="btn boton_ver_centrado info_blanco" type="button" href="index.html">Volver a la página de inicio</a></footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </body>
 </html>
